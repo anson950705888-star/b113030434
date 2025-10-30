@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ post.title }}</title>
+</head>
+<body>
+    <h1>{{ post.title }}</h1>
+    <p>作者：{{ post.author }}</p>
+    <hr>
+    <p>{{ post.content }}</p>
+    <hr>
+    <a href="{{ url_for('index') }}">返回首頁</a>
+</body>
+</html>
